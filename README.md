@@ -31,6 +31,26 @@ http://www.materialdoc.com/search-filter/
     	compile 'com.abbas-oveissi:materialsearchview:1.0.3'
 	}
 ```
+3-   در پایان برای نمایش ویو در اکتیویتی،کد زیر را در فایل ایکس ام ال آن قرار دهید.
+```javascript
+    <!-- Must be last for right layering display -->
+    <FrameLayout
+        android:id="@+id/toolbar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/theme_primary" />
+
+        <ir.oveissi.materialsearchview.MaterialSearchView
+            android:id="@+id/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+```
 
 
 # License
