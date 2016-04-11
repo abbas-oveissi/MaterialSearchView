@@ -9,6 +9,7 @@
 
 #Native version
 Maybe it would be useful to take a look into the new official approach
+
 http://www.materialdoc.com/search-filter/
 
 # Usage
@@ -16,6 +17,7 @@ http://www.materialdoc.com/search-filter/
 ```javascript
 	dependencies {
     	compile 'com.abbas-oveissi:materialsearchview:1.0.3
+    	
 	}
 ```
 
