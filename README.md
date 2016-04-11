@@ -13,7 +13,17 @@ Maybe it would be useful to take a look into the new official approach
 http://www.materialdoc.com/search-filter/
 
 # Usage
-برای استفاده از این کتابخونه،خط زیر را به فایل بیلد ماژول خود اضاف کنید.
+نحوه ی استفاده از کتابخانه :
+1- کد زیر را به فایل گردل اصلی پروژه اضافه کنید.
+```javascript
+	allprojects {
+		repositories {
+			...
+			maven { url "https://jitpack.io" }
+		}
+	}
+```
+2- کد زیر را به فایل گردل ماژول خود اضافه کنید.
 ```javascript
 	dependencies {
     	compile 'com.abbas-oveissi:materialsearchview:1.0.3'
