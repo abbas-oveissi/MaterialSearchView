@@ -22,7 +22,7 @@
             android:layout_height="?attr/actionBarSize"
             android:background="@color/theme_primary" />
 
-        <com.miguelcatalan.materialsearchview.MaterialSearchView
+        <ir.oveissi.materialsearchview.MaterialSearchView
             android:id="@+id/search_view"
             style="@style/MaterialSearchViewStyle"
             android:layout_width="match_parent"

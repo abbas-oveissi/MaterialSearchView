@@ -1,4 +1,4 @@
-package com.miguelcatalan.materialsearchview.utils;
+package ir.oveissi.materialsearchview.utils;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

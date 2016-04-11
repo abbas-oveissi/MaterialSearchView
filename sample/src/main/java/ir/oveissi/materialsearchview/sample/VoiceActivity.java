@@ -1,4 +1,4 @@
-package com.miguelcatalan.materialsearchview.sample;
+package ir.oveissi.materialsearchview.sample;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,25 +10,28 @@ import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.miguelcatalan.materialsearchview.MaterialSearchView;
+import com.miguelcatalan.materialsearchview.sample.R;
 
 import java.util.ArrayList;
 
-public class StickyActivity extends AppCompatActivity {
+import ir.oveissi.materialsearchview.MaterialSearchView;
+
+public class VoiceActivity extends AppCompatActivity {
 
     private MaterialSearchView searchView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sticky);
+        setContentView(R.layout.activity_voice);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         searchView = (MaterialSearchView) findViewById(R.id.search_view);
-        searchView.setVoiceSearch(false);
-        searchView.setCursorDrawable(R.drawable.custom_cursor);
+        searchView.setVoiceSearch(true);
+        searchView.setCursorDrawable(R.drawable.color_cursor_white);
+        searchView.setSuggestions(getResources().getStringArray(R.array.query_suggestions));
         searchView.setOnQueryTextListener(new MaterialSearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {

@@ -1,4 +1,4 @@
-package com.miguelcatalan.materialsearchview;
+package ir.oveissi.materialsearchview;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -11,6 +11,8 @@ import android.widget.Filter;
 import android.widget.Filterable;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.miguelcatalan.materialsearchview.R;
 
 import java.util.ArrayList;
 import java.util.List;

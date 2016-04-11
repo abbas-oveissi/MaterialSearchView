@@ -1,4 +1,4 @@
-package com.miguelcatalan.materialsearchview;
+package ir.oveissi.materialsearchview;
 
 import android.app.Activity;
 import android.content.Context;
@@ -33,10 +33,12 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.miguelcatalan.materialsearchview.utils.AnimationUtil;
+import com.miguelcatalan.materialsearchview.R;
 
 import java.lang.reflect.Field;
 import java.util.List;
+
+import ir.oveissi.materialsearchview.utils.AnimationUtil;
 
 /**
  * @author Miguel Catalan Bañuls
