@@ -1,3 +1,5 @@
+[![Release](https://jitpack.io/v/User/Repo.svg)](https://jitpack.io/#User/Repo)
+
 # MaterialSearchView
 Cute library to implement SearchView in a Material Design Approach. *Works from Android API 14 (ICS) and above*.
 
