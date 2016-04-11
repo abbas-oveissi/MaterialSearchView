@@ -1,7 +1,7 @@
 [![Release](https://jitpack.io/v/abbas-oveissi/MaterialSearchView.svg)](https://jitpack.io/#abbas-oveissi/MaterialSearchView)
 
 # MaterialSearchView
-تنها فرق این کتابخونه با کتابخونه ی اصلی در این هست که همیشه بصورت راست به چپ نمایش داده می شود.حتی اگر در اندروید های 4.1 از آن استفاده کنید.لینک کتابخونه ی اصلی در زیر قابل مشاهده هست :
+تنها تفاوت این کتابخانه با کتابخانه ی اصلی در این هست که همیشه بصورت راست به چپ نمایش داده می شود.حتی اگر در اندروید های 4.1 یا 4.0 از آن استفاده کنید.لینک کتابخانه ی اصلی در زیر قابل مشاهده هست :
 <a href="https://github.com/MiguelCatalan/MaterialSearchView">
 
 ![sample](https://raw.githubusercontent.com/MiguelCatalan/MaterialSearchView/master/art/voice.gif) ![sample](https://raw.githubusercontent.com/MiguelCatalan/MaterialSearchView/master/art/default.gif)
