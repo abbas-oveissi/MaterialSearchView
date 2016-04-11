@@ -16,8 +16,7 @@ http://www.materialdoc.com/search-filter/
 برای استفاده از این کتابخونه،خط زیر را به فایل بیلد ماژول خود اضاف کنید.
 ```javascript
 	dependencies {
-    	compile 'com.abbas-oveissi:materialsearchview:1.0.3
-    	
+    	compile 'com.abbas-oveissi:materialsearchview:1.0.3'
 	}
 ```
 
