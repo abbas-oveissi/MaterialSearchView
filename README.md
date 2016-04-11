@@ -2,6 +2,7 @@
 
 # MaterialSearchView
 تنها تفاوت این کتابخانه با کتابخانه ی اصلی در این هست که همیشه بصورت راست به چپ نمایش داده می شود.حتی اگر در اندروید های 4.1 یا 4.0 از آن استفاده کنید.لینک کتابخانه ی اصلی در زیر قابل مشاهده هست :
+
 <a href="https://github.com/MiguelCatalan/MaterialSearchView">https://github.com/MiguelCatalan/MaterialSearchView</a>
 
 ![sample](https://raw.githubusercontent.com/MiguelCatalan/MaterialSearchView/master/art/voice.gif) ![sample](https://raw.githubusercontent.com/MiguelCatalan/MaterialSearchView/master/art/default.gif)
