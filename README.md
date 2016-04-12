@@ -28,7 +28,7 @@ http://www.materialdoc.com/search-filter/
 2- کد زیر را به فایل گردل ماژول خود اضافه کنید.
 ```javascript
 	dependencies {
-    	compile 'com.abbas-oveissi:materialsearchview:1.0.4'
+    	compile 'com.github.abbas-oveissi:materialsearchview:1.0.4'
 	}
 ```
 3-   در پایان برای نمایش ویو در اکتیویتی،کد زیر را در فایل ایکس ام ال آن قرار دهید.
