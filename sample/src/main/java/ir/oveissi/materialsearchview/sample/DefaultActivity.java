@@ -31,6 +31,7 @@ public class DefaultActivity extends AppCompatActivity {
         searchView = (MaterialSearchView) findViewById(R.id.search_view);
         searchView.setVoiceSearch(false);
         searchView.setCursorDrawable(R.drawable.custom_cursor);
+        searchView.setTypeFaceForEditext(FontHelper.get(this,"Vazir.ttf"));
         searchView.setEllipsize(true);
         searchView.setSuggestions(getResources().getStringArray(R.array.query_suggestions));
         searchView.setOnQueryTextListener(new MaterialSearchView.OnQueryTextListener() {
