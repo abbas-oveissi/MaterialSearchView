@@ -7,6 +7,7 @@ import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.content.res.TypedArray;
 import android.graphics.Rect;
+import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Parcel;
@@ -294,6 +295,10 @@ public class MaterialSearchView extends FrameLayout implements Filter.FilterList
     }
 
     //Public Attributes
+    public void setTypeFaceForEditext(Typeface tf)
+    {
+        mSearchSrcTextView.setTypeface(tf);
+    }
 
     @Override
     public void setBackground(Drawable background) {
